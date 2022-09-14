@@ -267,7 +267,7 @@ public class Demo6Script2 : MonoBehaviour
 <table>
 
   <tr>
-    <td><img src="https://raw.githubusercontent.com/bunyamineymen/Lesson1_DevelopingMobileGame/main/Assets/_Resources/demo4.png"></td>
+    <td><img src="https://raw.githubusercontent.com/bunyamineymen/Lesson1_DevelopingMobileGame/main/Assets/_Resources/demo7.png"></td>
 
   </tr>
  </table>
