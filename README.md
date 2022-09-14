@@ -3,18 +3,58 @@
 
 # Lesson 1
 
-Stack is one of those simple, silly, addictive games that
-you can lose an entire afternoon to if you're not careful.
-It became hit in hypercasual game industry in 2016. This is a clone of Stack.The goal of the game is to stack the moving blocks over
-each other as high as you can.
+Developing Mobile Game lesson for Ankara university - Week 1
 
+## Demo 1 
 
-## Demo 1 - Basic Canvas
+* Create Canvas and basic canvas components
+* Canvas Scaler - UI Scale Mode
+* Text & TextMeshPRO
+* Basic RectTransform
+* Image component and use as background
+* Button component and basic use
 
-Stack is one of those simple, silly, addictive games that
-you can lose an entire afternoon to if you're not careful.
-It became hit in hypercasual game industry in 2016. This is a clone of Stack.The goal of the game is to stack the moving blocks over
-each other as high as you can.
+<table>
+
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/bunyamineymen/Lesson1_DevelopingMobileGame/main/Assets/_Resources/demo1.png" width=250 height=535></td>
+
+  </tr>
+ </table>
+
+  `Use In Project` : By calling this method `HMSAccountKitManager.Instance.SignIn();` at GameManager.cs 121
+
+   ```csharp
+
+public class Demo1 : MonoBehaviour
+{
+    #region MyButton
+
+    public Button Btn_MyButton;
+
+    private void Awake()
+    {
+        Btn_MyButton.onClick.AddListener(ButtonClick_MyButton);
+    }
+
+    public void ButtonClick_MyButton()
+    {
+        Debug.Log("ButtonClick_MyButton");
+    }
+
+    #endregion
+}
+
+  ```
+
+## Demo 2
+
+* Create Canvas and basic canvas components
+* Canvas Scaler - UI Scale Mode
+* Text & TextMeshPRO
+* Basic RectTransform
+* Image component and use as background
+* Button component and basic use
 
 <table>
 
@@ -24,45 +64,31 @@ each other as high as you can.
   </tr>
  </table>
 
- `Purpose In Project` :  Potential need of login with
+  `Use In Project` : By calling this method `HMSAccountKitManager.Instance.SignIn();` at GameManager.cs 121
 
-* WeChat
-* QQ
-* Weibo
-* Apple
-* Google
-* Facebook
-* Twitter
+   ```csharp
 
+public class Demo1 : MonoBehaviour
+{
+    #region MyButton
 
+    public Button Btn_MyButton;
 
-## Demo 2
+    private void Awake()
+    {
+        Btn_MyButton.onClick.AddListener(ButtonClick_MyButton);
+    }
 
-Stack is one of those simple, silly, addictive games that
-you can lose an entire afternoon to if you're not careful.
-It became hit in hypercasual game industry in 2016. This is a clone of Stack.The goal of the game is to stack the moving blocks over
-each other as high as you can.
+    public void ButtonClick_MyButton()
+    {
+        Debug.Log("ButtonClick_MyButton");
+    }
 
-<table>
+    #endregion
+}
 
-  <tr>
-    <td><img src="https://raw.githubusercontent.com/EvilMindDevs/Stack-HmsUnityPlugin-ReferenceGame/Master/Assets/Images/scene.jpg" width=250 height=535></td>
-    <td><img src="https://raw.githubusercontent.com/EvilMindDevs/Stack-HmsUnityPlugin-ReferenceGame/Master/Assets/Images/pic3.jpg" width=250 height=535></td>
-    <td><img src="https://raw.githubusercontent.com/EvilMindDevs/Stack-HmsUnityPlugin-ReferenceGame/Master/Assets/Images/pic5.jpg" width=250  height=535></td>
-
-  </tr>
- </table>
-
- `Purpose In Project` :  Potential need of login with
-
-* WeChat
-* QQ
-* Weibo
-* Apple
-* Google
-* Facebook
-* Twitter
-
+  ```
+  
 
 
 
