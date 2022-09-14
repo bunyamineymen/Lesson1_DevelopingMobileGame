@@ -22,8 +22,6 @@ Developing Mobile Game lesson for Ankara university - Week 1
   </tr>
  </table>
 
-  `Use In Project` : By calling this method `HMSAccountKitManager.Instance.SignIn();` at GameManager.cs 121
-
    ```csharp
 
 public class Demo1 : MonoBehaviour
@@ -49,42 +47,36 @@ public class Demo1 : MonoBehaviour
 
 ## Demo 2
 
-* Create Canvas and basic canvas components
-* Canvas Scaler - UI Scale Mode
-* Text & TextMeshPRO
-* Basic RectTransform
-* Image component and use as background
-* Button component and basic use
+* Unityevent
+* EventSystem
+* Graphic Raycaster
+* Canvas - Render Mode
 
 <table>
 
   <tr>
-    <td><img src="https://raw.githubusercontent.com/bunyamineymen/Lesson1_DevelopingMobileGame/main/Assets/_Resources/demo_1.png" width=250 height=535></td>
+    <td><img src="https://raw.githubusercontent.com/bunyamineymen/Lesson1_DevelopingMobileGame/main/Assets/_Resources/demo2.png" width=250 height=535></td>
 
   </tr>
  </table>
 
-  `Use In Project` : By calling this method `HMSAccountKitManager.Instance.SignIn();` at GameManager.cs 121
-
    ```csharp
 
-public class Demo1 : MonoBehaviour
+public class Demo2 : MonoBehaviour
 {
-    #region MyButton
 
-    public Button Btn_MyButton;
+    public UnityEvent UE_Event;
 
-    private void Awake()
+    public void Run_UnityEvent()
     {
-        Btn_MyButton.onClick.AddListener(ButtonClick_MyButton);
+        Debug.Log("ButtonClick_UnityEvent");
     }
 
     public void ButtonClick_MyButton()
     {
-        Debug.Log("ButtonClick_MyButton");
+        UE_Event?.Invoke();
     }
 
-    #endregion
 }
 
   ```
