@@ -19,7 +19,7 @@ each other as high as you can.
 <table>
 
   <tr>
-    <td><img src="https://raw.githubusercontent.com/EvilMindDevs/Stack-HmsUnityPlugin-ReferenceGame/Master/Assets/Images/scene.jpg" width=250 height=535></td>
+    <td><img src="https://raw.githubusercontent.com/bunyamineymen/Lesson1_DevelopingMobileGame/main/Assets/_Resources/demo_1.png" width=250 height=535></td>
     <td><img src="https://raw.githubusercontent.com/EvilMindDevs/Stack-HmsUnityPlugin-ReferenceGame/Master/Assets/Images/pic3.jpg" width=250 height=535></td>
     <td><img src="https://raw.githubusercontent.com/EvilMindDevs/Stack-HmsUnityPlugin-ReferenceGame/Master/Assets/Images/pic5.jpg" width=250  height=535></td>
 
