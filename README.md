@@ -272,9 +272,46 @@ public class Demo6Script2 : MonoBehaviour
   </tr>
  </table>
 
-   ```csharp
+```csharp
 
+public class Demo7 : MonoBehaviour
+{
+    #region Singleton
 
+    public static Demo7 instance;
+
+    private void Singleton()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(this);
+        }
+    }
+    #endregion
+
+    private void Awake()
+    {
+        Singleton();
+    }
+
+    public void MainMethod()
+    {
+        Debug.Log("MainMethod");
+    }
+
+}
+
+public class Demo7Script2 : MonoBehaviour
+{
+    private void Start()
+    {
+        Demo7.instance.MainMethod();
+    }
+}
 
   ```
 
