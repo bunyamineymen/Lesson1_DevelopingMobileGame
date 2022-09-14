@@ -38,20 +38,4 @@ public class Demo4 : MonoBehaviour
     {
         Debug.Log("LateUpdate");
     }
-
-    private void OnWillRenderObject()
-    {
-        Debug.Log("OnWillRenderObject");
-    }
-
-    private void OnGUI()
-    {
-        Debug.Log("OnGUI");
-    }
-
-    private void OnDestroy()
-    {
-        Debug.Log("OnDestroy");
-    }
-
 }

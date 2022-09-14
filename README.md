@@ -132,4 +132,64 @@ public class Demo3 : MonoBehaviour
 
   ```
   
+## Demo 4
+
+* GameObject.Find unity command
+* Console window
+* Inspector window
+* Project window
+* Shortcut: CTRL D , CTRL E
+* Time Offset : Ienumarator , System.Threading.Tasks
+
+<table>
+
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/bunyamineymen/Lesson1_DevelopingMobileGame/main/Assets/_Resources/demo4.png"></td>
+
+  </tr>
+ </table>
+
+   ```csharp
+
+public class Demo4 : MonoBehaviour
+{
+
+    private void Awake()
+    {
+        Debug.Log("Awake");
+    }
+
+    private void OnEnable()
+    {
+        Debug.Log("OnEnable");
+    }
+
+    private void OnDisable()
+    {
+        Debug.Log("OnDisable");
+    }
+
+    private void Start()
+    {
+        Debug.Log("Start");
+    }
+
+    private void FixedUpdate()
+    {
+        Debug.Log("FixedUpdate");
+    }
+
+    private void Update()
+    {
+        Debug.Log("Update");
+    }
+
+    private void LateUpdate()
+    {
+        Debug.Log("LateUpdate");
+    }
+}
+
+  ```
+  
 
