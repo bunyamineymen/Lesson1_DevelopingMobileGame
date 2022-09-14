@@ -194,16 +194,30 @@ public class Demo4 : MonoBehaviour
 <table>
 
   <tr>
-    <td><img src="https://raw.githubusercontent.com/bunyamineymen/Lesson1_DevelopingMobileGame/main/Assets/_Resources/demo4.png"></td>
+    <td><img src="https://raw.githubusercontent.com/bunyamineymen/Lesson1_DevelopingMobileGame/main/Assets/_Resources/demo5.png"></td>
 
   </tr>
  </table>
 
-   ```csharp
+```csharp
 
+public class Demo5Script1 : MonoBehaviour
+{
+    void Start()
+    {
+        Debug.Log("Start 1");
+    }
+}
 
+public class Demo5Script2 : MonoBehaviour
+{
+    void Start()
+    {
+        Debug.Log("Start 2");
+    }
+}
 
-  ```
+```
   
 
 
