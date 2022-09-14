@@ -134,12 +134,7 @@ public class Demo3 : MonoBehaviour
   
 ## Demo 4
 
-* GameObject.Find unity command
-* Console window
-* Inspector window
-* Project window
-* Shortcut: CTRL D , CTRL E
-* Time Offset : Ienumarator , System.Threading.Tasks
+* Monobehaviour Methods and Lifecycle
 
 <table>
 
@@ -192,4 +187,101 @@ public class Demo4 : MonoBehaviour
 
   ```
   
+## Demo 5
 
+* Script Execution Order
+
+<table>
+
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/bunyamineymen/Lesson1_DevelopingMobileGame/main/Assets/_Resources/demo4.png"></td>
+
+  </tr>
+ </table>
+
+   ```csharp
+
+
+
+  ```
+  
+
+
+  ## Demo 6
+
+* Access other monobehaviour script.
+
+<table>
+
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/bunyamineymen/Lesson1_DevelopingMobileGame/main/Assets/_Resources/demo4.png"></td>
+
+  </tr>
+ </table>
+
+   ```csharp
+
+
+
+  ```
+  
+
+
+  ## Demo 7
+
+* Singleton pattern
+
+<table>
+
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/bunyamineymen/Lesson1_DevelopingMobileGame/main/Assets/_Resources/demo4.png"></td>
+
+  </tr>
+ </table>
+
+   ```csharp
+
+
+
+  ```
+
+
+
+  ## Demo 8
+
+* Make a basic game scene
+* Advance at working at the unity scene
+
+<table>
+
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/bunyamineymen/Lesson1_DevelopingMobileGame/main/Assets/_Resources/demo4.png"></td>
+
+  </tr>
+ </table>
+
+   ```csharp
+
+
+
+  ```
+
+
+
+## Demo 9
+
+* Creating car at the scene
+
+<table>
+
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/bunyamineymen/Lesson1_DevelopingMobileGame/main/Assets/_Resources/demo4.png"></td>
+
+  </tr>
+ </table>
+
+   ```csharp
+
+
+
+  ```
