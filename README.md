@@ -17,7 +17,7 @@ Developing Mobile Game lesson for Ankara university - Week 1
 <table>
 
   <tr>
-    <td><img src="https://raw.githubusercontent.com/bunyamineymen/Lesson1_DevelopingMobileGame/main/Assets/_Resources/demo1.png" width=250 height=535></td>
+    <td><img src="https://raw.githubusercontent.com/bunyamineymen/Lesson1_DevelopingMobileGame/main/Assets/_Resources/demo1.png"></td>
 
   </tr>
  </table>
