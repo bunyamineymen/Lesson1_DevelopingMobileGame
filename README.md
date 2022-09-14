@@ -235,6 +235,25 @@ public class Demo5Script2 : MonoBehaviour
 
    ```csharp
 
+public class Demo6Script1 : MonoBehaviour
+{
+
+    public Demo6Script2 demo6Script2;
+
+    private void Start()
+    {
+        demo6Script2.MainLogic();
+    }
+
+}
+
+public class Demo6Script2 : MonoBehaviour
+{
+    public void MainLogic()
+    {
+        Debug.Log("MainLogic");
+    }
+}
 
 
   ```
